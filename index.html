@@ -14,11 +14,12 @@ Url proyecto:
 Notas de la actividad:
 <ul>
   <li>Se ha agregado el nombre en cada grafico para validar la autoria.</li>
+  <li>Se proponen e implementan mejoras en algunos casos de acuerdo a las buenas practicas presentadas en clases.</li>
 </ul>
 <br />
 
 <h2>
-  Figura 1. Google Sheets - Grafico de barras horizontal: Emisiones CO2 por Pais
+  Figura 1. Google Sheets - Grafico de barras horizontal: Emisiones de CO2 por Pais
 </h2>
 <iframe
   width="600"
@@ -29,10 +30,17 @@ Notas de la actividad:
   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2y6QOlb4PvsSR23BYb7vDKewkXfAOtomWJBT8WRIsc9i-_QBTN4_6f9uTNTBSB1xil3r2N-TL63km/pubchart?oid=610491138&amp;format=interactive"
 ></iframe>
 <br />
+Mejoras implementadas:
+<ul>
+  <li>Cambiar el color por un tono mas oscuro mejora el contraste contra la escala.</li>
+  <li>Remover los puntos decimales de las escala, pues no aportan relevancia por la magnitud de los valores.</li>
+  <li>Asegurar que aparezcan los nombres completos de los paises.</li>
+</ul>
+<br />
 
 <h2>
   Figura 2. Google Sheets - Grafico combinado de barras y lineas: Cotizacion y
-  Volumen de A y B
+  Volumen diarios de A y B
 </h2>
 <iframe
   width="600"
@@ -42,6 +50,20 @@ Notas de la actividad:
   scrolling="no"
   src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2y6QOlb4PvsSR23BYb7vDKewkXfAOtomWJBT8WRIsc9i-_QBTN4_6f9uTNTBSB1xil3r2N-TL63km/pubchart?oid=471196217&amp;format=interactive"
 ></iframe>
+<br />
+Mejoras implementadas:
+<ul>
+  <li>Cambiar colores con tonos que mejoran el contraste y asociados por categoria.</li>
+  <li>No usar doble ejes.</li>
+</ul>
+Mejoras posibles:
+<ul>
+  <li>Usar una alternativa a google sheets para
+      poder crear mas de un grafico en un marco,
+      escalar correctamente y
+      colocar labels a las lineas en lugar de la leyenda (la layenda es grande).</li>
+  <li>Validar si las magnitudes estan en las mismas unidades. Si son diferentes, separar los graficos.</li>
+</ul>
 <br />
 
 <h2>
